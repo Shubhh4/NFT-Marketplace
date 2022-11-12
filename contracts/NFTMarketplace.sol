@@ -18,7 +18,7 @@ contract NFTMarketplace is ERC721URIStorage {
     //The fee charged by the marketplace to be allowed to list an NFT
     uint256 listPrice = 0.01 ether;
 
-    //The structure to store info about a listed token
+    //The structure to store info about a listed tokens
     struct ListedToken {
         uint256 tokenId;
         address payable owner;
